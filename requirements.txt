@@ -1,0 +1,43 @@
+import pkg_resources
+from subprocess import call
+
+Define required packages and versions
+requirements = [
+    "torch==1.12.1+cu113",
+    "transformers==4.22.2",
+    "diffusers==0.10.2",
+    "replicate-api==1.0.5",
+    "ffmpeg-python==0.2.0",
+    "SpeechRecognition==3.8.1",
+    "pydub==0.25.1",
+    "numpy==1.23.1",
+    "Pillow==9.3.0",
+    "scipy==1.9.1"
+]
+
+Write requirements to file
+with open("requirements.txt", "w") as file:
+    for requirement in requirements:
+        file.write("%s
+" % requirement)
+
+#Alternative method using pip freeze
+#call(["pip", "freeze", ">requirements.txt"])
+
+ 
+ #even simpler version:
+
+"""import os
+os.system("pip freeze > requirements.txt")"""
+#This script will generate a `requirements.txt` file in the same directory, containing the required packages and versions for the DreamPuppets project.
+
+#To use this script:
+
+"""1. Save this code in a file (e.g., `generate_requirements.py`)
+2. Run the script using Python (e.g., `python generate_requirements.py`)
+3. A `requirements.txt` file will be generated in the same directory
+
+Do you:
+A) Run the script now
+B) Modify the script for your needs
+C) Ask about the requirements list"""
