@@ -1,0 +1,25 @@
+**Repository Description:**
+
+DreamPuppets is an open-source repository for generating interactive, customizable digital puppets using AI and machine learning techniques. This project aims to provide a platform for creators, developers, and enthusiasts to experiment with innovative puppet designs, animations, and interactions.
+
+**Repository Features:**
+
+1. **Text-to-Puppet**: Generate puppets from text descriptions
+2. **Image-to-Puppet**: Create puppets from images or artwork
+3. **Video-to-Puppet**: Generate puppets from videos (BETA)
+4. **Voice-to-Puppet**: Create puppets from voice clips (BETA)
+5. **Customizable**: Modify puppet appearance, personality, and animations
+6. **Interactive**: Engage with puppets using voice commands, text input, or gestures
+7. **Cross-platform**: Compatible with Windows, macOS, Linux, Android, and iOS
+
+**Repository Structure:**
+
+1. `dream_puppets` (main directory)
+2. `models` (pre-trained AI models)
+3. `puppet_generation` (scripts for generating puppets)
+4. `customization` (tools for modifying puppet appearance and behavior)
+5. `interaction` (scripts for interactive puppet engagement)
+6. `examples` (demo projects showcasing puppet capabilities)
+7. `docs` (documentation and guides)
+
+**Repository Technologies:**
